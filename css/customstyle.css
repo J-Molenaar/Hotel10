@@ -1,0 +1,58 @@
+
+/* Main  */
+.navbar{
+    background-color: white;
+}
+ .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #e7e7e7;
+    color: #CCAA60;
+}
+.navbar-brand{
+    font-family: 'Josefin Slab', Courier, serif;
+    font-size: 1.8em;
+}
+
+.featurette-heading {
+    /* font-size: 3em; */
+    padding-top: 8%;
+}
+
+
+.lead{
+    /* font-size: 2em; */
+}
+
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    border-color: #e7e7e7;
+    font-family: 'Josefin Slab', Courier, serif;
+    font-size: 1.2em;
+}
+
+.container-fluid{
+        background: #CCAA60;
+}
+
+/* Restaurants  */
+
+.dine {
+    margin: 15px auto;
+}
+
+h5 {
+    color: #CCAA60;
+}
+
+.text-muted{
+    color: #CCAA60;
+}
+/* Rooms  */
+.marketing{
+    margin: 15px auto;
+}
+/*Register  */
+
+form{
+    margin: 75px auto 75px auto;
+}

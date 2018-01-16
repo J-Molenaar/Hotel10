@@ -1,9 +1,13 @@
 
-/* Main  */
+/* MAIN */
+body h1, h2, h3, h4, h5{
+    font-family: 'Josefin Slab', Courier, serif;
+}
 .navbar{
     background-color: white;
 }
- .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: #e7e7e7;
     color: #CCAA60;
 }
@@ -11,15 +15,16 @@
     font-family: 'Josefin Slab', Courier, serif;
     font-size: 1.8em;
 }
-
+.navbar-nav{
+   
+}
 .featurette-heading {
     /* font-size: 3em; */
     padding-top: 8%;
 }
 
-
 .lead{
-    /* font-size: 2em; */
+    font-size: 2em;
 }
 
 .footer{
@@ -34,7 +39,12 @@
         background: #CCAA60;
 }
 
-/* Restaurants  */
+/* STAY */
+.marketing{
+    margin: 15px auto;
+}
+
+/* RESTAURANT */
 
 .dine {
     margin: 15px auto;
@@ -51,8 +61,77 @@ h5 {
 .marketing{
     margin: 15px auto;
 }
-/*Register  */
+/* REGISTER */
 
 form{
     margin: 75px auto 75px auto;
+}
+
+ /* CONTACT */
+ .brand{
+    font-family: 'Josefin Slab', Courier, serif;
+    font-size: 2.8em;
+    font-weight: bold;
+} 
+
+ .contact{
+    margin: 75px auto 150px auto;
+} 
+
+ .contact p{
+    font-size: 1.3em;
+} 
+
+#map {
+    height: 300px;
+    width: 100%;
+    margin: 50px auto 0 auto;
+} 
+
+ .glyphicon{
+    color: #CCAA60;
+} 
+
+.contact span{
+    font-size: 1.8em;
+    margin: 10px auto;
+}
+
+.container-table {
+    display: table;
+    padding: 0 0;
+}  
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}  
+
+/* SPA */
+
+.jumbotron{
+    background: url("https://images.unsplash.com/photo-1492552181161-62217fc3076d?auto=format&fit=crop&w=1373&q=80") no-repeat fixed center;
+}
+
+.jumbotron h1{
+   color: #CCAA60; 
+}
+.marketing h4{
+    color: #CCAA60;
+}
+
+.lead{
+    color: white;
+}
+
+ .spa-brand{
+    font-family: 'Josefin Slab', Courier, serif;
+    font-size: 2.8em;
+} 
+
+.contact-spa{
+    margin-bottom: 10px;
+}
+.contact-spa p{
+    font-size: 1.3em;
 }

@@ -52,21 +52,25 @@
         </div><!-- end navbar-collapse -->
       </div><!-- end container -->
     </nav>
+    
   <div class="container contact">  <!-- start container -->
     <div class="container container-table">
       <div class="row vertical-center-row">
         <div class="text-center col-md-4 col-md-offset-4">
           <h2 class="brand">The 10 Hotel</h2>
           <br>
-           <a href="https://www.google.com/maps/place/50+Dahlia+Ave,+Imperial+Beach,+CA+91932/@32.5831559,-117.1323519,15z/data=!4m13!1m7!3m6!1s0x80d94cf72b5116f1:0xd454266d6b853b2e!2s50+Dahlia+Ave,+Imperial+Beach,+CA+91932!3b1!8m2!3d32.5831994!4d-117.132429!3m4!1s0x80d94cf72b5116f1:0xd454266d6b853b2e!8m2!3d32.5831994!4d-117.132429"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></a> <p> 50 Dahlia Ave, Imperial Beach, CA 91932 </p>  
+          <a href="https://www.google.com/maps/place/50+Dahlia+Ave,+Imperial+Beach,+CA+91932/@32.5831559,-117.1323519,15z/data=!4m13!1m7!3m6!1s0x80d94cf72b5116f1:0xd454266d6b853b2e!2s50+Dahlia+Ave,+Imperial+Beach,+CA+91932!3b1!8m2!3d32.5831994!4d-117.132429!3m4!1s0x80d94cf72b5116f1:0xd454266d6b853b2e!8m2!3d32.5831994!4d-117.132429"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></a> <p> 50 Dahlia Ave, Imperial Beach, CA 91932 </p>  
           <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> <p> 888.555.1010 </p>
           <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:info@10hotel.com"><p> info@hotel10.com </p><a>
-            <div id="map"></div>
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
             <script>
             function initMap() {
               var uluru = {lat: 32.583189, lng: -117.132412};
               var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 10,
+                zoom: 12,
                 center: uluru
               });
               var marker = new google.maps.Marker({
@@ -76,21 +80,18 @@
             }
           </script>
           <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcrthrItqJhIuQwrO9RN77ZBpVDvNFco0&callback=initMap">
-          </script>
-        </div>
-      </div>
-    </div>
-  </div> <!-- end container-->
+            src="https://maps.googleapis.com/maps/api/js?&callback=initMap">
+          </script> 
+    </div> <!-- end container-->
 
-  <div class="container-fluid"> <!-- FOOTER -->
-    <div class="footer">
-      <footer>
-       <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 The 10 Hotel &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </div>  
-  </div>
+    <div class="container-fluid"> <!-- FOOTER -->
+      <div class="footer">
+        <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+          <p>&copy; 2017 The 10 Hotel &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+      </div>  
+    </div>
 
   </body>
 </html>
